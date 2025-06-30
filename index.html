@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | Desarrollador de Videojuegos</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e2f;
+      color: #ffffff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #2b2b40;
+    }
+
+    .info-personal h1 {
+      font-size: 28px;
+    }
+
+    .info-personal p {
+      font-size: 16px;
+      color: #cccccc;
+    }
+
+    .links-extra a {
+      margin-left: 20px;
+      color: #00bfff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+    .tarjeta {
+      background-color: #2f2f45;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tarjeta img {
+      width: 100%;
+      height: auto;
+    }
+
+    .tarjeta .contenido {
+      padding: 15px;
+      flex: 1;
+    }
+
+    .tarjeta .contenido p {
+      margin-bottom: 10px;
+    }
+
+    .tarjeta .contenido a {
+      color: #00bfff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2b2b40;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="info-personal">
+      <h1>Juan Pérez</h1>
+      <p>Desarrollador de Videojuegos</p>
+    </div>
+    <nav class="links-extra">
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="tarjeta">
+      <img src="proyecto1.jpg" alt="Proyecto 1">
+      <div class="contenido">
+        <p>Un juego de plataformas 2D con mecánicas únicas de salto y combate.</p>
+        <a href="proyecto1.html">Ver más</a>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <img src="proyecto2.jpg" alt="Proyecto 2">
+      <div class="contenido">
+        <p>Aventura gráfica en un mundo cyberpunk con narrativa ramificada.</p>
+        <a href="proyecto2.html">Ver más</a>
+      </div>
+    </div>
+    <!-- Agrega más tarjetas según lo necesites -->
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Juan Pérez. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
