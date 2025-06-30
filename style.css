@@ -1,58 +1,38 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-html, body {
-  height: 100%;
-}
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e2f;
+      color: #ffffff;
+    }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #2b2b40;
+    }
 
-.contenedor {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
+    .info-personal h1 {
+      font-size: 28px;
+    }
 
-main {
-  flex: 1;
-}
+    .info-personal p {
+      font-size: 16px;
+      color: #cccccc;
+    }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #1e1e2f;
-  color: #ffffff;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #2b2b40;
-  flex-wrap: wrap;
-}
-
-.info-personal h1 {
-  font-size: 28px;
-}
-
-.info-personal p {
-  font-size: 16px;
-  color: #cccccc;
-}
-
-.links-extra a {
-  margin-left: 20px;
-  color: #00bfff;
-  text-decoration: none;
-  font-weight: bold;
-}
+    .links-extra a {
+      margin-left: 20px;
+      color: #00bfff;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
 main {
   padding: 40px;
@@ -67,36 +47,34 @@ main {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-  width: 280px;
-  max-width: 100%;
+  width: 300px;
   display: flex;
   flex-direction: column;
 }
 
-.tarjeta img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
+    .tarjeta img {
+      width: 100%;
+      height: auto;
+    }
 
-.tarjeta .contenido {
-  padding: 15px;
-  flex: 1;
-}
+    .tarjeta .contenido {
+      padding: 15px;
+      flex: 1;
+    }
 
-.tarjeta .contenido p {
-  margin-bottom: 10px;
-}
+    .tarjeta .contenido p {
+      margin-bottom: 10px;
+    }
 
-.tarjeta .contenido a {
-  color: #00bfff;
-  text-decoration: none;
-  font-weight: bold;
-}
+    .tarjeta .contenido a {
+      color: #00bfff;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #2b2b40;
-  color: #888;
-}
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2b2b40;
+      color: #888;
+    }
